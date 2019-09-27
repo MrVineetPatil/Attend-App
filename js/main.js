@@ -51,8 +51,14 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
-    
+
+    // if(document.getElementById('email').value=="vbpatil9980@gmail.com"&&
+    //     document.getElementById('password').value=="hihello")
+    //     {
+    //     sessionStorage.setItem('ok',document.getElementById('email').value);
 
 
-
-})(jQuery);
+sessionStorage.setItem("ok","true");
+            location.href="page2.html";
+}
+)(jQuery);
